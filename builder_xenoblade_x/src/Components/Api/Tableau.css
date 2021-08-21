@@ -1,0 +1,13 @@
+.sr-only {
+  display: none;
+}
+
+div > .filter-label {
+  display: none;
+}
+
+table {
+  overflow: auto;
+  table-layout: auto !important;
+  display: block;
+}

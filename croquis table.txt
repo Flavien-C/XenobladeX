@@ -1,0 +1,46 @@
+﻿Login
+|--User: string
+|--Password: password           [crypted]
+
+
+
+
+[longword / javelin / dualSword / shield / knife / photonSaber]
+Melee
+--name: string
+--type: string
+--attribute: string
+--attack: integer
+--stability: integer
+--cooldown: float
+--tpGain: integer
+
+
+
+[assault / sniper / dualGun / gatling / raygun / psycho]
+Range
+--name: string
+--type: string
+--attribute: string
+--attack: integer
+--stability: integer
+--cooldown: float
+--tpGain: integer
+--amno: integer
+
+
+
+
+[head / torso / leftArm / rightArm / legs]
+Armor
+--name: string
+--type: string
+--defense: int
+--resistance: {
+    phys: int
+    ether: int
+    fire: int
+    electric: int
+    beam: int
+    gravity: int
+  }
